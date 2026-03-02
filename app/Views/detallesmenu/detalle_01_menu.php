@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Detalle de Plato</title>
+<script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-100">
+
+<div class="max-w-5xl mx-auto px-6 py-12">
+
+    <!-- IMAGEN PRINCIPAL -->
+    <div>
+        <img id="imagen-principal"
+             src="./assets/img/banquete/menu/pollo_papas.webp"
+             class="w-full h-[520px] object-cover rounded-3xl shadow-xl">
+    </div>
+
+    <!-- CONTENIDO -->
+    <div class="mt-12 text-center md:text-left">
+
+        <h1 class="text-4xl md:text-5xl font-light text-gray-900 leading-tight">
+            Pollo asado con papas doradas
+        </h1>
+
+        <p class="text-gray-600 mt-6 text-lg leading-relaxed">
+            Jugoso pollo horneado con especias, acompañado de papas doradas y tiernas.
+            Un plato casero, reconfortante y lleno de sabor tradicional.
+        </p>
+
+        <div class="mt-8 flex flex-col md:flex-row md:items-center md:gap-8">
+
+            <div>
+                <label class="block text-gray-700 font-medium mb-2">
+                    Cantidad de porciones
+                </label>
+
+                <input type="number"
+                       min="1"
+                       placeholder="1"
+                       class="w-40 px-4 py-3 border border-gray-300 rounded-xl shadow-sm focus:outline-none focus:ring-2 focus:ring-amber-400">
+            </div>
+
+            <div class="mt-6 md:mt-0">
+                <h2 class="text-3xl font-semibold text-gray-900">
+                    $380.000
+                </h2>
+            </div>
+        </div>
+
+        <div class="mt-8">
+            <a href="<?= BASE_URL ?>module=platillos&view=principal"
+               class="inline-block bg-gray-900 text-white px-10 py-4 rounded-full text-lg hover:bg-gray-700 transition duration-300 shadow-lg">
+                Añadir al carrito
+            </a>
+        </div>
+
+    </div>
+
+    <!-- MINIATURAS COMPLETAS -->
+    <div class="mt-16">
+        <h3 class="text-2xl font-semibold text-center mb-8 text-gray-800">
+            Más imágenes del platillo
+        </h3>
+
+        <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6">
+
+            <img src="./assets/img/banquete/menu/01_menu/01_pollo.webp"
+                 class="w-full h-48 object-cover rounded-2xl cursor-pointer hover:scale-105 transition duration-300 shadow"
+                 onclick="cambiarImagen(this)">
+
+            <img src="./assets/img/banquete/menu/01_menu/02_pollo.web"
+                 class="w-full h-48 object-cover rounded-2xl cursor-pointer hover:scale-105 transition duration-300 shadow"
+                 onclick="cambiarImagen(this)">
+
+            <img src="./assets/img/banquete/menu/01_menu/03_pollo.web"
+                 class="w-full h-48 object-cover rounded-2xl cursor-pointer hover:scale-105 transition duration-300 shadow"
+                 onclick="cambiarImagen(this)">
+
+            <img src="./assets/img/banquete/menu/01_menu/04_pollo.web"
+                 class="w-full h-48 object-cover rounded-2xl cursor-pointer hover:scale-105 transition duration-300 shadow"
+                 onclick="cambiarImagen(this)">
+
+            <img src="./assets/img/banquete/menu/01_menu/05_pollo.web"
+                 class="w-full h-48 object-cover rounded-2xl cursor-pointer hover:scale-105 transition duration-300 shadow"
+                 onclick="cambiarImagen(this)">
+
+            <img src="./assets/img/banquete/menu/01_menu/06_pollo.web"
+                 class="w-full h-48 object-cover rounded-2xl cursor-pointer hover:scale-105 transition duration-300 shadow"
+                 onclick="cambiarImagen(this)">
+
+            <img src="./assets/img/banquete/menu/01_menu/07_pollo.web"
+                 class="w-full h-48 object-cover rounded-2xl cursor-pointer hover:scale-105 transition duration-300 shadow"
+                 onclick="cambiarImagen(this)">
+
+            <img src="./assets/img/banquete/menu/01_menu/08_pollo.web"
+                 class="w-full h-48 object-cover rounded-2xl cursor-pointer hover:scale-105 transition duration-300 shadow"
+                 onclick="cambiarImagen(this)">
+        </div>
+    </div>
+
+</div>
+
+<script>
+function cambiarImagen(imagenPequena) {
+    document.getElementById("imagen-principal").src = imagenPequena.src;
+}
+</script>
+
+</body>
+</html>
