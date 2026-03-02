@@ -1,6 +1,9 @@
 RewriteEngine On
+RewriteBase /cotieventosV2/
 
-# Redirigir todo a index.php
+# No redirigir si es un archivo o carpeta real
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^ index.php [QSA,L]
+
+# Redirigir todo a index.php
+RewriteRule . index.php [L]

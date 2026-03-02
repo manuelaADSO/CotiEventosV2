@@ -18,13 +18,13 @@
 
         <!-- GRADUACIONES -->
         <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition duration-300">
-            <img src="https://i.pinimg.com/1200x/d8/02/e7/d802e78fbde3db5cb12620ec5feb825a.jpg" class="h-48 w-full object-cover">
+            <img src="./assets/img/eventos/inicio/graduacion.webp" class="h-48 w-full object-cover">
             <div class="p-6">
                 <h2 class="text-2xl font-bold text-pink-600 mb-3">Graduaciones 🎓</h2>
                 <p class="text-gray-600 mb-4">
                     Celebramos el logro de una etapa inolvidable con una organización impecable y llena de emoción.
                 </p>
-                <a href="<?= BASE_URL ?>/eventos/graduaciones" class="inline-block bg-red-500 text-white px-6 py-2 rounded-full hover:bg-pink-600 transition">
+                <a href="<?= BASE_URL ?>/graduacion" class="inline-block bg-red-500 text-white px-6 py-2 rounded-full hover:bg-pink-600 transition">
                     Cotizar
                 </a>
             </div>
