@@ -1,150 +1,160 @@
 <main class="flex-grow">
 
-    <!-- HERO -->
-    <div class="pt-20">
-        <section class="bg-gradient-to-r from-amber-100 via-orange-100 to-rose-100 py-24">
-            <div class="max-w-5xl mx-auto text-center px-6">
+<!-- HERO -->
+<div class="pt-20">
+    <section class="bg-gradient-to-r from-yellow-400 via-yellow-200 to-yellow-300 py-20">
+        <div class="max-w-6xl mx-auto text-center px-6">
+            <h1 class="text-4xl md:text-5xl font-bold mb-4 text-olive">
+                Platillos Gourmet
+            </h1>
+            <p class="text-lg text-olive/90">
+                Sabores que convierten cada celebración en una experiencia inolvidable.
+            </p>
+        </div>
+    </section>
+</div>
 
-                <h1 class="text-5xl md:text-6xl font-extrabold tracking-wide text-gray-800 mb-6">
-                    Platillos Gourmet
-                </h1>
+<!-- DESCRIPCIÓN + IMAGEN -->
+<section class="py-16 bg-white">
+    <div class="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
 
-                <div class="w-24 h-1 bg-orange-500 mx-auto mb-6 rounded-full"></div>
-
-                <p class="text-lg text-gray-600 leading-relaxed max-w-2xl mx-auto">
-                    Una experiencia gastronómica diseñada para sorprender.
-                    Presentaciones elegantes, sabores auténticos y una propuesta
-                    culinaria que transforma cada celebración en un momento inolvidable.
-                </p>
-
-            </div>
-        </section>
-    </div>
-
-    <!-- CONTENIDO PRINCIPAL -->
-    <section class="max-w-7xl mx-auto px-6 py-20">
-
-        <div class="grid lg:grid-cols-2 gap-16 items-center">
-
-            <!-- IMAGEN CIRCULAR -->
-            <div class="flex justify-center">
-                <div class="w-80 h-80 rounded-full overflow-hidden shadow-2xl">
-                    <img src="./assets/img/banquete/inicio/comida_3.webp"
-                        class="w-full h-full object-cover"
-                        alt="Platillo elegante">
-                </div>
-            </div>
-
-            <!-- TEXTO Y OPCIONES -->
-            <div>
-
-                <h2 class="text-4xl font-light mb-6 text-gray-800">
-                    Nuestra Propuesta
-                </h2>
-
-                <p class="text-gray-600 text-lg leading-relaxed mb-10">
-                    Cada platillo está cuidadosamente elaborado para ofrecer
-                    una combinación perfecta entre sabor, estética y sofisticación.
-                    Iluminación cálida, detalles florales y una presentación moderna
-                    elevan la experiencia culinaria en cada evento.
-                </p>
-
-                <!-- OPCIONES -->
-                <div class="space-y-6">
-
-                    <!-- MENÚ -->
-                    <a href="<?= BASE_URL ?>/menu"
-                        class="flex items-center bg-blue-50 hover:bg-blue-100 transition p-6 rounded-2xl shadow-md">
-
-                        <div class="w-14 h-14 flex items-center justify-center bg-white rounded-full shadow text-blue-600 text-2xl">
-                            🍽
-                        </div>
-
-                        <div class="ml-6">
-                            <span class="text-xl font-semibold text-blue-600 block">
-                                Menú
-                            </span>
-                            <small class="text-gray-500">
-                                Platos principales preparados con sabor casero y variedad para todos los gustos.
-                            </small>
-                        </div>
-
-                        <span class="ml-auto text-blue-600 text-xl">
-                            →
-                        </span>
-                    </a>
-
-                    <!-- POSTRES -->
-                    <a href="<?= BASE_URL ?>/postres"
-                        class="flex items-center bg-pink-50 hover:bg-pink-100 transition p-6 rounded-2xl shadow-md">
-
-                        <div class="w-14 h-14 flex items-center justify-center bg-white rounded-full shadow text-pink-600 text-2xl">
-                            🍰
-                        </div>
-
-                        <div class="ml-6">
-                            <span class="text-xl font-semibold text-pink-600 block">
-                                Postres
-                            </span>
-                            <small class="text-gray-500">
-                                Deliciosas opciones dulces para cerrar tu experiencia con un toque especial.
-                            </small>
-                        </div>
-
-                        <span class="ml-auto text-pink-600 text-xl">
-                            →
-                        </span>
-                    </a>
-
-                    <!-- CÓCTELES -->
-                    <a href="<?= BASE_URL ?>/cocteles"
-                        class="flex items-center bg-green-50 hover:bg-green-100 transition p-6 rounded-2xl shadow-md">
-
-                        <div class="w-14 h-14 flex items-center justify-center bg-white rounded-full shadow text-green-600 text-2xl">
-                            🍸
-                        </div>
-
-                        <div class="ml-6">
-                            <span class="text-xl font-semibold text-green-600 block">
-                                Cócteles
-                            </span>
-                            <small class="text-gray-500">
-                                Bebidas refrescantes y creativas ideales para cualquier celebración.
-                            </small>
-                        </div>
-
-                        <span class="ml-auto text-green-600 text-xl">
-                            →
-                        </span>
-                    </a>
-
-                    <!-- TORTAS -->
-                    <a href="<?= BASE_URL ?>/tortas"
-                        class="flex items-center bg-yellow-50 hover:bg-yellow-100 transition p-6 rounded-2xl shadow-md">
-
-                        <div class="w-14 h-14 flex items-center justify-center bg-white rounded-full shadow text-yellow-600 text-2xl">
-                            🎂
-                        </div>
-
-                        <div class="ml-6">
-                            <span class="text-xl font-semibold text-yellow-600 block">
-                                Tortas
-                            </span>
-                            <small class="text-gray-500">
-                                Tortas personalizadas perfectas para cumpleaños, eventos y momentos únicos.
-                            </small>
-                        </div>
-
-                        <span class="ml-auto text-yellow-600 text-xl">
-                            →
-                        </span>
-                    </a>
-
-                </div>
-
-            </div>
+        <!-- IMAGEN -->
+        <div class="flex justify-center order-1 md:order-2">
+            <img src="./assets/img/banquete/inicio/comida_3.webp"
+                 class="w-80 h-80 object-cover rounded-full shadow-2xl border-8 border-yellow-200"
+                 alt="Platillo elegante">
         </div>
 
-    </section>
+        <!-- TEXTO -->
+        <div class="order-2 md:order-1">
+            <h2 class="text-3xl font-bold text-olive-600 mb-4">
+                Nuestra Propuesta Gastronómica
+            </h2>
 
-</main>
+            <p class="text-gray-600 mb-4">
+                Cada platillo está cuidadosamente elaborado para ofrecer
+                una combinación perfecta entre sabor, estética y sofisticación.
+            </p>
+
+            <p class="text-gray-600 mb-4">
+                Diseñamos experiencias culinarias que elevan cada evento,
+                desde celebraciones familiares hasta grandes fiestas.
+            </p>
+
+            <p class="text-gray-600 mb-4">
+                Ingredientes frescos, presentaciones elegantes y una propuesta
+                gastronómica pensada para sorprender a todos tus invitados.
+            </p>
+        </div>
+
+    </div>
+</section>
+
+<!-- SERVICIOS -->
+<section class="py-20 bg-gradient-to-b from-gray-50 to-white">
+    <div class="max-w-4xl mx-auto px-6">
+
+        <h2 class="text-3xl font-bold text-center text-olive-600 mb-4">
+            Opciones Gastronómicas
+        </h2>
+
+        <div class="space-y-10">
+
+            <!-- MENÚ -->
+            <a href="<?= BASE_URL ?>/menu"
+               class="relative block bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition duration-300 group overflow-hidden">
+
+                <div class="absolute left-0 top-0 h-full w-2 bg-cyan-200"></div>
+
+                <div class="flex items-start gap-6">
+                    <div class="text-4xl bg-cyan-300 text-cyan-400 p-4 rounded-full shadow-md group-hover:scale-110 transition">
+                        🍽
+                    </div>
+
+                    <div>
+                        <h3 class="text-2xl font-bold text-gray-800 mb-2 group-hover:text-blue-600 transition">
+                            Menú
+                        </h3>
+                        <p class="text-gray-600">
+                            Platos principales preparados con ingredientes frescos
+                            y recetas pensadas para todos los gustos.
+                        </p>
+                    </div>
+                </div>
+            </a>
+
+            <!-- POSTRES -->
+            <a href="<?= BASE_URL ?>/postres"
+               class="relative block bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition duration-300 group overflow-hidden">
+
+                <div class="absolute left-0 top-0 h-full w-2 bg-violet-200"></div>
+
+                <div class="flex items-start gap-6">
+                    <div class="text-4xl bg-violet-200 text-violet-400 p-4 rounded-full shadow-md group-hover:scale-110 transition">
+                        🍰
+                    </div>
+
+                    <div>
+                        <h3 class="text-2xl font-bold text-gray-800 mb-2 group-hover:text-pink-600 transition">
+                            Postres
+                        </h3>
+                        <p class="text-gray-600">
+                            Deliciosas opciones dulces para terminar cada
+                            celebración con un toque especial.
+                        </p>
+                    </div>
+                </div>
+            </a>
+
+            <!-- CÓCTELES -->
+            <a href="<?= BASE_URL ?>/cocteles"
+               class="relative block bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition duration-300 group overflow-hidden">
+
+                <div class="absolute left-0 top-0 h-full w-2 bg-green-200"></div>
+
+                <div class="flex items-start gap-6">
+                    <div class="text-4xl bg-green-100 text-green-300 p-4 rounded-full shadow-md group-hover:scale-110 transition">
+                        🍸
+                    </div>
+
+                    <div>
+                        <h3 class="text-2xl font-bold text-gray-800 mb-2 group-hover:text-green-600 transition">
+                            Cócteles
+                        </h3>
+                        <p class="text-gray-600">
+                            Bebidas refrescantes y creativas ideales
+                            para brindar en cualquier celebración.
+                        </p>
+                    </div>
+                </div>
+            </a>
+
+            <!-- TORTAS -->
+            <a href="<?= BASE_URL ?>/tortas"
+               class="relative block bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition duration-300 group overflow-hidden">
+
+                <div class="absolute left-0 top-0 h-full w-2 bg-indigo-100"></div>
+
+                <div class="flex items-start gap-6">
+                    <div class="text-4xl bg-indigo-200 text-indigo-300 p-4 rounded-full shadow-md group-hover:scale-110 transition">
+                        🎂
+                    </div>
+
+                    <div>
+                        <h3 class="text-2xl font-bold text-gray-800 mb-2 group-hover:text-yellow-500 transition">
+                            Tortas
+                        </h3>
+                        <p class="text-gray-600">
+                            Tortas personalizadas perfectas para cumpleaños,
+                            eventos especiales y celebraciones únicas.
+                        </p>
+                    </div>
+                </div>
+            </a>
+
+        </div>
+
+    </div>
+</section>
+
+</main> 

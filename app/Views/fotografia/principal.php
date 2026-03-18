@@ -2,126 +2,172 @@
 
     <!-- HERO -->
     <div class="pt-20">
-        <section class="bg-gradient-to-r from-amber-100 via-orange-100 to-rose-100 py-24">
-            <div class="max-w-5xl mx-auto text-center px-6">
-
-                <h1 class="text-5xl md:text-6xl font-extrabold tracking-wide text-gray-800 mb-6">
+        <section class="bg-gradient-to-r from-lime-400 via-lime-200 to-lime-300 py-20">
+            <div class="max-w-6xl mx-auto text-center px-6">
+                <h1 class="text-4xl md:text-5xl font-bold mb-4 text-olive">
                     Fotografía para Eventos
                 </h1>
-
-                <div class="w-24 h-1 bg-orange-500 mx-auto mb-6 rounded-full"></div>
-
-                <p class="text-lg text-gray-600 leading-relaxed max-w-2xl mx-auto">
-                    Capturamos los momentos más importantes de tu evento con profesionalismo y creatividad. 
-                    Desde bodas y fiestas hasta eventos corporativos, nuestros servicios de fotografía garantizan recuerdos inolvidables.
+                <p class="text-lg text-olive/90">
+                    Capturamos cada emoción y detalle para convertirlos en recuerdos eternos.
                 </p>
-
             </div>
         </section>
     </div>
 
-    <!-- CONTENIDO PRINCIPAL -->
-    <section class="max-w-7xl mx-auto px-6 py-20">
+    <!-- DESCRIPCIÓN + IMAGEN CIRCULAR -->
+    <section class="py-16 bg-white">
+        <div class="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
 
-        <div class="grid lg:grid-cols-2 gap-16 items-center">
-
-            <!-- IMAGEN CIRCULAR -->
-            <div class="flex justify-center">
-                <div class="w-80 h-80 rounded-full overflow-hidden shadow-2xl">
-                    <img src="./assets/img/fotografia/evento_fotografia.jpg"
-                        class="w-full h-full object-cover"
-                        alt="Fotografía de evento">
-                </div>
+            <!-- IMAGEN -->
+            <div class="flex justify-center order-1 md:order-2">
+                <img src="/cotieventosV2/assets/img/fotografia/inicio/foto.webp"
+                     class="w-80 h-80 object-cover rounded-full shadow-2xl border-8 border-lime-200">
             </div>
 
-            <!-- TEXTO Y SERVICIOS -->
-            <div>
-
-                <h2 class="text-4xl font-light mb-6 text-gray-800">
-                    Nuestra Propuesta Fotográfica
+            <!-- TEXTO -->
+            <div class="order-2 md:order-1">
+                <h2 class="text-3xl font-bold text-olive-600 mb-12">
+                    Cada evento cuenta una historia
                 </h2>
-
-                <p class="text-gray-600 text-lg leading-relaxed mb-10">
-                    Cada servicio está diseñado para adaptarse a la temática y estilo de tu evento. 
-                    Desde sesiones planificadas hasta momentos espontáneos, nuestro objetivo es que cada fotografía cuente una historia inolvidable.
+                <p class="text-gray-600 mb-4">
+                    Desde celebraciones íntimas hasta grandes eventos,
+                    nuestro equipo profesional se encarga de capturar
+                    cada instante con creatividad y elegancia.
                 </p>
-
-                <!-- SERVICIOS FOTOGRÁFICOS (4 OPCIONES) -->
-                <div class="space-y-6">
-
-                    <!-- Fotografía de Bodas -->
-                    <a href="#bodas"
-                        class="flex items-center bg-blue-50 hover:bg-blue-100 transition p-6 rounded-2xl shadow-md">
-                        <div class="w-14 h-14 flex items-center justify-center bg-white rounded-full shadow text-blue-600 text-2xl">
-                            💍
-                        </div>
-                        <div class="ml-6">
-                            <span class="text-xl font-semibold text-blue-600 block">
-                                Fotografía de Bodas
-                            </span>
-                            <small class="text-gray-500">
-                                Capturamos cada momento del día más especial, desde la ceremonia hasta la celebración.
-                            </small>
-                        </div>
-                        <span class="ml-auto text-blue-600 text-xl">→</span>
-                    </a>
-
-                    <!-- Eventos Corporativos -->
-                    <a href="#corporativos"
-                        class="flex items-center bg-purple-50 hover:bg-purple-100 transition p-6 rounded-2xl shadow-md">
-                        <div class="w-14 h-14 flex items-center justify-center bg-white rounded-full shadow text-purple-600 text-2xl">
-                            🏢
-                        </div>
-                        <div class="ml-6">
-                            <span class="text-xl font-semibold text-purple-600 block">
-                                Eventos Corporativos
-                            </span>
-                            <small class="text-gray-500">
-                                Fotografía profesional para conferencias, reuniones y presentaciones empresariales.
-                            </small>
-                        </div>
-                        <span class="ml-auto text-purple-600 text-xl">→</span>
-                    </a>
-
-                    <!-- Sesiones Personales -->
-                    <a href="#sesiones"
-                        class="flex items-center bg-green-50 hover:bg-green-100 transition p-6 rounded-2xl shadow-md">
-                        <div class="w-14 h-14 flex items-center justify-center bg-white rounded-full shadow text-green-600 text-2xl">
-                            📸
-                        </div>
-                        <div class="ml-6">
-                            <span class="text-xl font-semibold text-green-600 block">
-                                Sesiones Personales
-                            </span>
-                            <small class="text-gray-500">
-                                Retratos y sesiones individuales, familiares o de pareja con estilo y creatividad.
-                            </small>
-                        </div>
-                        <span class="ml-auto text-green-600 text-xl">→</span>
-                    </a>
-
-                    <!-- Álbumes y Edición -->
-                    <a href="#albumes"
-                        class="flex items-center bg-yellow-50 hover:bg-yellow-100 transition p-6 rounded-2xl shadow-md">
-                        <div class="w-14 h-14 flex items-center justify-center bg-white rounded-full shadow text-yellow-600 text-2xl">
-                            📖
-                        </div>
-                        <div class="ml-6">
-                            <span class="text-xl font-semibold text-yellow-600 block">
-                                Álbumes y Edición
-                            </span>
-                            <small class="text-gray-500">
-                                Entrega de fotografías editadas profesionalmente y creación de álbumes personalizados.
-                            </small>
-                        </div>
-                        <span class="ml-auto text-yellow-600 text-xl">→</span>
-                    </a>
-
-                </div>
-
+                <p class="text-gray-600 mb-4">
+                    Utilizamos equipos de alta calidad y técnicas modernas
+                    para garantizar imágenes llenas de emoción y detalle.
+                </p>
+                <p class="text-gray-600 mb-4">
+                    Vive tu evento con tranquilidad, nosotros nos encargamos
+                    de que el recuerdo dure para siempre.
+                </p>
             </div>
-        </div>
 
+        </div>
     </section>
 
-</main>
+<!-- SERVICIOS POR EVENTO -->
+<section class="py-20 bg-gradient-to-b from-gray-50 to-white">
+    <div class="max-w-4xl mx-auto px-6">
+        <h2 class="text-3xl font-bold text-center text-olive-600 mb-12">
+            Fotografía según tu Evento
+        </h2>
+
+        <div class="flex flex-col space-y-8">
+            <!-- GRADOS -->
+            <a href="<?= BASE_URL ?>/fotografia/grados"
+               class="relative block bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition duration-300 group overflow-hidden">
+                <div class="absolute left-0 top-0 h-full w-2 bg-cyan-200"></div>
+                <div class="flex items-start gap-6">
+                    <div class="text-4xl bg-cyan-200 text-cyan-300 p-4 rounded-full shadow-md group-hover:scale-110 transition">
+                        🎓
+                    </div>
+                    <div>
+                        <h3 class="text-2xl font-bold text-gray-800 mb-2 group-hover:text-cyan-300 transition">
+                            Grados
+                        </h3>
+                        <p class="text-gray-600">
+                            El orgullo y la felicidad de un logro que merece ser recordado.
+                        </p>
+                    </div>
+                </div>
+            </a>
+
+            <!-- BABY SHOWER -->
+            <a href="<?= BASE_URL ?>/fotografia/babyshowers"
+               class="relative block bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition duration-300 group overflow-hidden">
+                <div class="absolute left-0 top-0 h-full w-2 bg-sky-200"></div>
+                <div class="flex items-start gap-6">
+                    <div class="text-4xl bg-sky-200 text-sky-400 p-4 rounded-full shadow-md group-hover:scale-110 transition">
+                        👶
+                    </div>
+                    <div>
+                        <h3 class="text-2xl font-bold text-gray-800 mb-2 group-hover:text-sky-400 transition">
+                            Baby Showers
+                        </h3>
+                        <p class="text-gray-600">
+                            Capturamos la dulzura y emoción antes de la llegada del bebé.
+                        </p>
+                    </div>
+                </div>
+            </a>
+
+            <!-- BAUTIZO -->
+            <a href="<?= BASE_URL ?>/fotografia/bautizo"
+               class="relative block bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition duration-300 group overflow-hidden">
+                <div class="absolute left-0 top-0 h-full w-2 bg-blue-200"></div>
+                <div class="flex items-start gap-6">
+                    <div class="text-4xl bg-blue-200 text-blue-400 p-4 rounded-full shadow-md group-hover:scale-110 transition">
+                        ⛪
+                    </div>
+                    <div>
+                        <h3 class="text-2xl font-bold text-gray-800 mb-2 group-hover:text-blue-400 transition">
+                            Bautizos
+                        </h3>
+                        <p class="text-gray-600">
+                            Recuerdos tiernos y llenos de amor en un día espiritual único.
+                        </p>
+                    </div>
+                </div>
+            </a>
+
+            <!-- CUMPLEAÑOS -->
+            <a href="<?= BASE_URL ?>/fotografia/cumple"
+               class="relative block bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition duration-300 group overflow-hidden">
+                <div class="absolute left-0 top-0 h-full w-2 bg-purple-200"></div>
+                <div class="flex items-start gap-6">
+                    <div class="text-4xl bg-purple-200 text-purple-400 p-4 rounded-full shadow-md group-hover:scale-110 transition">
+                        🎂
+                    </div>
+                    <div>
+                        <h3 class="text-2xl font-bold text-gray-800 mb-2 group-hover:text-purple-400 transition">
+                            Cumpleaños
+                        </h3>
+                        <p class="text-gray-600">
+                            Momentos divertidos y espontáneos que merecen ser recordados.
+                        </p>
+                    </div>
+                </div>
+            </a>
+
+            <!-- BODAS -->
+            <a href="<?= BASE_URL ?>/fotografia/boda"
+               class="relative block bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition duration-300 group overflow-hidden">
+                <div class="absolute left-0 top-0 h-full w-2 bg-pink-200"></div>
+                <div class="flex items-start gap-6">
+                    <div class="text-4xl bg-pink-200 text-pink-400 p-4 rounded-full shadow-md group-hover:scale-110 transition">
+                        💍
+                    </div>
+                    <div>
+                        <h3 class="text-2xl font-bold text-gray-800 mb-2 group-hover:text-pink-400 transition">
+                            Bodas
+                        </h3>
+                        <p class="text-gray-600">
+                            Capturamos cada mirada, lágrima y sonrisa del día más especial.
+                        </p>
+                    </div>
+                </div>
+            </a>
+
+            <!-- XV AÑOS -->
+            <a href="<?= BASE_URL ?>/fotografia/xv"
+               class="relative block bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition duration-300 group overflow-hidden">
+                <div class="absolute left-0 top-0 h-full w-2 bg-fuchsia-200"></div>
+                <div class="flex items-start gap-6">
+                    <div class="text-4xl bg-fuchsia-200 text-fuchsia-400 p-4 rounded-full shadow-md group-hover:scale-110 transition">
+                        👑
+                    </div>
+                    <div>
+                        <h3 class="text-2xl font-bold text-gray-800 mb-2 group-hover:text-fuchsia-400 transition">
+                            XV Años
+                        </h3>
+                        <p class="text-gray-600">
+                            Una noche mágica merece fotografías llenas de brillo y emoción.
+                        </p>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+</section>

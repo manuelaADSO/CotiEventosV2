@@ -9,20 +9,23 @@
 
 <body class="bg-white">
 
-<!-- HERO -->
-<section class="relative h-[450px] flex items-center justify-center text-center text-white">
-    <img src="./assets/img/banquete/postre/postre_1.webp"
-         class="absolute inset-0 w-full h-full object-cover">
-    
-    <div class="absolute inset-0 bg-black/60"></div>
+<!-- Hero Postres -->
+ <div class="pt-20">
+<section class="min-h-[60vh] flex items-center justify-center bg-gradient-to-r from-violet-400 via-violet-200 to-violet-300">
+    <div class="max-w-6xl mx-auto text-center px-6">
 
-    <div class="relative z-10 px-4">
-        <h1 class="text-4xl md:text-6xl font-bold mb-4">
-            Postres
+        <h1 class="text-4xl md:text-6xl font-extrabold text-gray-800 mb-6">
+            Nuestros Postres
         </h1>
-        <p class="text-lg md:text-xl max-w-2xl mx-auto">
-            Dulces creaciones para cerrar tu evento con el sabor perfecto.
+
+        <div class="w-24 h-1 bg-violet-500 mx-auto mb-6 rounded-full"></div>
+
+        <p class="text-lg md:text-xl text-gray-600 max-w-2xl mx-auto leading-relaxed">
+            Delicias irresistibles elaboradas con dedicación y detalle.
+            Sabores suaves, texturas perfectas y presentaciones encantadoras
+            que convierten cada celebración en una experiencia dulce e inolvidable.
         </p>
+
     </div>
 </section>
 
@@ -42,7 +45,7 @@
                 <p class="text-2xl font-bold mb-4">
                     $650.000
                 </p>
-                <a href="<?= BASE_URL ?>module=postres&view=detalle_postre_01"
+                <a href="<?= BASE_URL ?>/detallespostres/01postre"
                    class="inline-block bg-black text-white px-6 py-2 rounded-full hover:bg-gray-800 transition">
                     Ver más
                 </a>
@@ -60,7 +63,7 @@
                 <p class="text-2xl font-bold mb-4">
                     $650.000
                 </p>
-                <a href="<?= BASE_URL ?>module=postres&view=detalle_postre_02"
+                <a href="<?= BASE_URL ?>/detallespostres/02postre"
                    class="inline-block bg-black text-white px-6 py-2 rounded-full hover:bg-gray-800 transition">
                     Ver más
                 </a>
@@ -78,7 +81,7 @@
                 <p class="text-2xl font-bold mb-4">
                     $650.000
                 </p>
-                <a href="<?= BASE_URL ?>module=postres&view=detalle_postre_03"
+                <a href="<?= BASE_URL ?>/detallespostres/03postre"
                    class="inline-block bg-black text-white px-6 py-2 rounded-full hover:bg-gray-800 transition">
                     Ver más
                 </a>
@@ -96,7 +99,7 @@
                 <p class="text-2xl font-bold mb-4">
                     $650.000
                 </p>
-                <a href="<?= BASE_URL ?>module=postres&view=detalle_postre_04"
+                <a href="<?= BASE_URL ?>/detallespostres/04postre"
                    class="inline-block bg-black text-white px-6 py-2 rounded-full hover:bg-gray-800 transition">
                     Ver más
                 </a>
@@ -114,7 +117,7 @@
                 <p class="text-2xl font-bold mb-4">
                     $650.000
                 </p>
-                <a href="<?= BASE_URL ?>module=postres&view=detalle_postre_05"
+                <a href="<?= BASE_URL ?>/detallespostres/05postre"
                    class="inline-block bg-black text-white px-6 py-2 rounded-full hover:bg-gray-800 transition">
                     Ver más
                 </a>
@@ -132,7 +135,7 @@
                 <p class="text-2xl font-bold mb-4">
                     $650.000
                 </p>
-                <a href="<?= BASE_URL ?>module=postres&view=detalle_postre_06"
+                <a href="<?= BASE_URL ?>/detallespostres/06postre"
                    class="inline-block bg-black text-white px-6 py-2 rounded-full hover:bg-gray-800 transition">
                     Ver más
                 </a>

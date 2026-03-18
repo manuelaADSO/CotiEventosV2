@@ -1,123 +1,223 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <title>Tortas</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-</head>
+<main class="flex-grow">
 
-<body class="bg-gray-100">
+<!-- HERO -->
+<div class="pt-20">
+<section class="bg-gradient-to-r from-indigo-300 via-indigo-100 to-indigo-200 py-20">
+<div class="max-w-6xl mx-auto text-center px-6">
 
-    <!-- HERO -->
-    <section class="relative h-[420px] flex items-center justify-center bg-cover bg-center"
-        style="background-image: url('./assets/img/banquete/torta/grado/inicio/01_torta.webp');">
+<h1 class="text-4xl md:text-5xl font-bold mb-4 text-olive">
+Tortas Especiales
+</h1>
 
-        <!-- Overlay oscuro -->
-        <div class="absolute inset-0 bg-black/50"></div>
+<p class="text-lg text-olive/90">
+Sabores dulces y diseños únicos para celebrar los momentos más importantes.
+</p>
 
-        <div class="relative text-center text-white px-6">
-            <h1 class="text-4xl md:text-5xl font-light tracking-wide">
-                Tortas para cada ocasión
-            </h1>
-            <p class="mt-4 text-lg font-light">
-                Diseños únicos y personalizados para tus eventos especiales
-            </p>
-        </div>
-    </section>
+</div>
+</section>
+</div>
+
+<!-- DESCRIPCIÓN + IMAGEN -->
+<section class="py-16 bg-white">
+<div class="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
+
+<!-- IMAGEN -->
+<div class="flex justify-center order-1 md:order-2">
+<img src="./assets/img/banquete/torta/torta.webp"
+class="w-80 h-80 object-cover rounded-full shadow-2xl border-8 border-indigo-200"
+alt="Torta elegante">
+</div>
+
+<!-- TEXTO -->
+<div class="order-2 md:order-1">
+
+<h2 class="text-3xl font-bold text-olive-600 mb-12">
+El dulce protagonista de cada celebración
+</h2>
+
+<p class="text-gray-600 mb-4">
+Nuestras tortas están elaboradas con ingredientes de alta calidad y
+decoraciones únicas que convierten cada evento en un momento memorable.
+</p>
+
+<p class="text-gray-600 mb-4">
+Diseñamos tortas personalizadas para diferentes celebraciones,
+combinando creatividad, sabor y elegancia en cada detalle.
+</p>
+
+<p class="text-gray-600 mb-4">
+Desde celebraciones familiares hasta grandes eventos,
+tenemos la torta perfecta para acompañar tu ocasión especial.
+</p>
+
+</div>
+
+</div>
+</section>
+
+<!-- TIPOS DE TORTAS -->
+<section class="py-20 bg-gradient-to-b from-gray-50 to-white">
+<div class="max-w-4xl mx-auto px-6">
+
+<h2 class="text-3xl font-bold text-center text-olive-600 mb-12">
+Tipos de Tortas
+</h2>
+
+<div class="space-y-10">
+
+<!-- GRADOS -->
+<a href="<?= BASE_URL ?>/tortas/grados"
+class="relative block bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition duration-300 group overflow-hidden">
+
+<div class="absolute left-0 top-0 h-full w-2 bg-teal-200"></div>
+
+<div class="flex items-start gap-6">
+
+<div class="text-4xl bg-teal-200 text-teal-400 p-4 rounded-full shadow-md group-hover:scale-110 transition">
+🎓
+</div>
+
+<div>
+<h3 class="text-2xl font-bold text-gray-800 mb-2 group-hover:text-teal-400 transition">
+Tortas de Grados
+</h3>
+
+<p class="text-gray-600">
+Celebra tus logros con una torta elegante y deliciosa.
+</p>
+</div>
+
+</div>
+</a>
+
+<!-- BABY SHOWER -->
+<a href="<?= BASE_URL ?>/tortas/babyshowers"
+class="relative block bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition duration-300 group overflow-hidden">
+
+<div class="absolute left-0 top-0 h-full w-2 bg-cyan-300"></div>
+
+<div class="flex items-start gap-6">
+
+<div class="text-4xl bg-cyan-100 text-cyan-600 p-4 rounded-full shadow-md group-hover:scale-110 transition">
+🍼
+</div>
+
+<div>
+<h3 class="text-2xl font-bold text-gray-800 mb-2 group-hover:text-cyan-400 transition">
+Tortas Baby Shower
+</h3>
+
+<p class="text-gray-600">
+Diseños tiernos y delicados para celebrar la llegada de un nuevo bebé.
+</p>
+</div>
+
+</div>
+</a>
+
+<!-- BAUTIZO -->
+<a href="<?= BASE_URL ?>/tortas/bautizo"
+class="relative block bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition duration-300 group overflow-hidden">
+
+<div class="absolute left-0 top-0 h-full w-2 bg-blue-200"></div>
+
+<div class="flex items-start gap-6">
+
+<div class="text-4xl bg-blue-200 text-blue-300 p-4 rounded-full shadow-md group-hover:scale-110 transition">
+✝️
+</div>
+
+<div>
+<h3 class="text-2xl font-bold text-gray-800 mb-2 group-hover:text-blue-400 transition">
+Tortas de Bautizo
+</h3>
+
+<p class="text-gray-600">
+Tortas elegantes y delicadas para una celebración espiritual especial.
+</p>
+</div>
+
+</div>
+</a>
 
 
-    <!-- CONTENIDO -->
-    <section class="max-w-7xl mx-auto px-6 py-16 bg-white shadow-sm">
+<!-- CUMPLEAÑOS -->
+<a href="<?= BASE_URL ?>/tortas/cumple"
+class="relative block bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition duration-300 group overflow-hidden">
 
-        <div class="grid grid-cols-2 md:grid-cols-3 gap-10">
+<div class="absolute left-0 top-0 h-full w-2 bg-orange-200"></div>
 
-            <!-- Card -->
-            <div class="text-center group">
-                <img src="./assets/img/banquete/torta/grado/inicio/01_torta.webp"
-                     class="w-full h-72 object-cover rounded-lg shadow-md group-hover:scale-105 transition duration-300"
-                     alt="Torta XV años">
-                <h3 class="mt-4 text-2xl font-semibold">Torta de Graduación Lila con Birrete</h3>
-                <p class="text-xl font-medium mt-1">$149.999</p>
+<div class="flex items-start gap-6">
 
-                <a href="<?= BASE_URL ?>module=tortas&view=detalle_xv"
-                   class="inline-block mt-4 px-6 py-2 border border-gray-700 text-gray-700 rounded-full hover:bg-gray-800 hover:text-white transition">
-                    Ver más
-                </a>
-            </div>
+<div class="text-4xl bg-orange-100 text-orange-300 p-4 rounded-full shadow-md group-hover:scale-110 transition">
+🎉
+</div>
 
-            <!-- Card -->
-            <div class="text-center group">
-                <img src="./assets/img/banquete/torta/grado/inicio/02_torta.webp"
-                     class="w-full h-72 object-cover rounded-lg shadow-md group-hover:scale-105 transition duration-300"
-                     alt="Torta Matrimonio">
-                <h3 class="mt-4 text-2xl font-semibold">Torta de Graduación Blanca con Birrete y Detalles Negros/h3>
-                <p class="text-xl font-medium mt-1">$149.999</p>
+<div>
+<h3 class="text-2xl font-bold text-gray-800 mb-2 group-hover:text-orange-400 transition">
+Tortas de Cumpleaños
+</h3>
 
-                <a href="<?= BASE_URL ?>module=tortas&view=detalle_boda"
-                   class="inline-block mt-4 px-6 py-2 border border-gray-700 text-gray-700 rounded-full hover:bg-gray-800 hover:text-white transition">
-                    Ver más
-                </a>
-            </div>
+<p class="text-gray-600">
+Diseños divertidos y personalizados para celebrar cada año especial.
+</p>
+</div>
 
-            <!-- Card -->
-            <div class="text-center group">
-                <img src="./assets/img/banquete/torta/grado/inicio/03_torta.webp"
-                     class="w-full h-72 object-cover rounded-lg shadow-md group-hover:scale-105 transition duration-300"
-                     alt="Torta Bautizo">
-                <h3 class="mt-4 text-2xl font-semibold">Torta de Graduación “Class of 2025”/h3>
-                <p class="text-xl font-medium mt-1">$149.999</p>
+</div>
+</a>
 
-                <a href="<?= BASE_URL ?>module=tortas&view=detalle_bautizo"
-                   class="inline-block mt-4 px-6 py-2 border border-gray-700 text-gray-700 rounded-full hover:bg-gray-800 hover:text-white transition">
-                    Ver más
-                </a>
-            </div>
+<!-- BODA -->
+<a href="<?= BASE_URL ?>/tortas/boda"
+class="relative block bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition duration-300 group overflow-hidden">
 
-            <!-- Card -->
-            <div class="text-center group">
-                <img src="./assets/img/banquete/torta/grado/inicio/04_torta.webp"
-                     class="w-full h-72 object-cover rounded-lg shadow-md group-hover:scale-105 transition duration-300"
-                     alt="Torta Cumpleaños">
-                <h3 class="mt-4 text-2xl font-semibold">Torta de Graduación Minimalista con Birrete</h3>
-                <p class="text-xl font-medium mt-1">$149.999</p>
+<div class="absolute left-0 top-0 h-full w-2 bg-rose-300"></div>
 
-                <a href="<?= BASE_URL ?>module=tortas&view=detalle_cumple"
-                   class="inline-block mt-4 px-6 py-2 border border-gray-700 text-gray-700 rounded-full hover:bg-gray-800 hover:text-white transition">
-                    Ver más
-                </a>
-            </div>
+<div class="flex items-start gap-6">
 
-            <!-- Card -->
-            <div class="text-center group">
-                <img src="./assets/img/banquete/torta/grado/inicio/05_torta.webp"
-                     class="w-full h-72 object-cover rounded-lg shadow-md group-hover:scale-105 transition duration-300"
-                     alt="Torta Baby Shower">
-                <h3 class="mt-4 text-2xl font-semibold">Torta de Graduación Decorativa con Siluetas</h3>
-                <p class="text-xl font-medium mt-1">149.999</p>
+<div class="text-4xl bg-rose-400 text-rose-500 p-4 rounded-full shadow-md group-hover:scale-110 transition">
+💍
+</div>
 
-                <a href="<?= BASE_URL ?>module=tortas&view=detalle_baby_shower"
-                   class="inline-block mt-4 px-6 py-2 border border-gray-700 text-gray-700 rounded-full hover:bg-gray-800 hover:text-white transition">
-                    Ver más
-                </a>
-            </div>
+<div>
+<h3 class="text-2xl font-bold text-gray-800 mb-2 group-hover:text-rose-500 transition">
+Tortas de Boda
+</h3>
 
-            <!-- Card -->
-            <div class="text-center group">
-                <img src="./assets/img/banquete/torta/grado/inicio/06_torta.webp"
-                     class="w-full h-72 object-cover rounded-lg shadow-md group-hover:scale-105 transition duration-300"
-                     alt="Torta Graduación">
-                <h3 class="mt-4 text-2xl font-semibold">Torta de Graduación Dorada con Base Decorativa</h3>
-                <p class="text-xl font-medium mt-1">$149.999</p>
+<p class="text-gray-600">
+Elegantes tortas de varios niveles para el día más especial.
+</p>
+</div>
 
-                <a href="<?= BASE_URL ?>module=tortas&view=detalle_graduacion"
-                   class="inline-block mt-4 px-6 py-2 border border-gray-700 text-gray-700 rounded-full hover:bg-gray-800 hover:text-white transition">
-                    Ver más
-                </a>
-            </div>
+</div>
+</a>
 
-        </div>
+<!-- XV -->
+<a href="<?= BASE_URL ?>/tortas/xv"
+class="relative block bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition duration-300 group overflow-hidden">
 
-    </section>
+<div class="absolute left-0 top-0 h-full w-2 bg-fuchsia-200"></div>
 
-</body>
-</html>
+<div class="flex items-start gap-6">
+
+<div class="text-4xl bg-fuchsia-200 text-fuchsia-400 p-4 rounded-full shadow-md group-hover:scale-110 transition">
+👑
+</div>
+
+<div>
+<h3 class="text-2xl font-bold text-gray-800 mb-2 group-hover:text-fuchsia-600 transition">
+Tortas XV Años
+</h3>
+
+<p class="text-gray-600">
+Diseños elegantes y creativos para una celebración inolvidable.
+</p>
+</div>
+
+</div>
+</a>
+
+</div>
+</div>
+</section>
+
+</main>

@@ -11,14 +11,15 @@
 <body class="bg-white text-gray-900">
 
 <!-- HERO -->
-<section class="bg-gradient-to-r from-orange-100 via-amber-100 to-yellow-100 py-24">
+    <div class="pt-20">
+<section class="bg-gradient-to-r from-cyan-400 via-cyan-200 to-cyan-300 py-24">
     <div class="max-w-6xl mx-auto text-center px-6">
 
         <h1 class="text-5xl md:text-6xl font-extrabold text-gray-800 mb-6">
             Nuestro Menú
         </h1>
 
-        <div class="w-24 h-1 bg-orange-500 mx-auto mb-6 rounded-full"></div>
+        <div class="w-24 h-1 bg-cyan-500 mx-auto mb-6 rounded-full"></div>
 
         <p class="text-lg text-gray-600 max-w-2xl mx-auto leading-relaxed">
             Descubre una selección de platillos preparados con dedicación,
@@ -27,7 +28,7 @@
         </p>
 
     </div>
-</section>
+</section> 
 
 <!-- CONTENIDO -->
 <main class="max-w-7xl mx-auto px-6 py-20">
@@ -44,8 +45,8 @@
                 <h3 class="text-lg font-semibold mb-2">
                     Pollo Asado con Papas Doradas
                 </h3>
-                <p class="text-xl font-bold mb-4">$650.000</p>
-                <a href="<?= BASE_URL ?>module=menu&view=detalle_menu_01"
+                <p class="text-xl font-bold mb-4">$649.999</p>
+                <a href="<?= BASE_URL ?>/detallesmenu/01menu"
                    class="inline-block border border-gray-400 px-6 py-2 rounded-full hover:bg-black hover:text-white transition">
                    Ver más
                 </a>
@@ -62,8 +63,8 @@
                 <h3 class="text-lg font-semibold mb-2">
                     Pollo en Salsa Cremosa con Pasta Fusilli
                 </h3>
-                <p class="text-xl font-bold mb-4">$650.000</p>
-                <a href="<?= BASE_URL ?>module=menu&view=detalle_menu_02"
+                <p class="text-xl font-bold mb-4">$649.999</p>
+                <a href="<?= BASE_URL ?>/detallesmenu/02menu"
                    class="inline-block border border-gray-400 px-6 py-2 rounded-full hover:bg-black hover:text-white transition">
                    Ver más
                 </a>
@@ -78,10 +79,10 @@
             </div>
             <div class="mt-4 text-center">
                 <h3 class="text-lg font-semibold mb-2">
-                    Pollo en Salsa Especial
+                    Pollo en salsa cremosa con papas fritas
                 </h3>
-                <p class="text-xl font-bold mb-4">$650.000</p>
-                <a href="<?= BASE_URL ?>module=menu&view=detalle_menu_03"
+                <p class="text-xl font-bold mb-4">$649.999</p>
+                <a href="<?= BASE_URL ?>/detallesmenu/03menu"
                    class="inline-block border border-gray-400 px-6 py-2 rounded-full hover:bg-black hover:text-white transition">
                    Ver más
                 </a>
@@ -98,8 +99,8 @@
                 <h3 class="text-lg font-semibold mb-2">
                     Burrito Gratinado de Carne y Papas
                 </h3>
-                <p class="text-xl font-bold mb-4">$650.000</p>
-                <a href="<?= BASE_URL ?>module=menu&view=detalle_menu_04"
+                <p class="text-xl font-bold mb-4">$649.999</p>
+                <a href="<?= BASE_URL ?>/detallesmenu/04menu"
                    class="inline-block border border-gray-400 px-6 py-2 rounded-full hover:bg-black hover:text-white transition">
                    Ver más
                 </a>
@@ -116,8 +117,8 @@
                 <h3 class="text-lg font-semibold mb-2">
                     Lasaña de Carne con Queso Gratinado
                 </h3>
-                <p class="text-xl font-bold mb-4">$650.000</p>
-                <a href="<?= BASE_URL ?>module=menu&view=detalle_menu_05"
+                <p class="text-xl font-bold mb-4">$649.999</p>
+                <a href="<?= BASE_URL ?>/detallesmenu/05menu"
                    class="inline-block border border-gray-400 px-6 py-2 rounded-full hover:bg-black hover:text-white transition">
                    Ver más
                 </a>
@@ -134,8 +135,8 @@
                 <h3 class="text-lg font-semibold mb-2">
                     Carne a la Parrilla con Pasta Cremosa de Camarones
                 </h3>
-                <p class="text-xl font-bold mb-4">$650.000</p>
-                <a href="<?= BASE_URL ?>module=menu&view=detalle_menu_06"
+                <p class="text-xl font-bold mb-4">$649.999</p>
+                <a href="<?= BASE_URL ?>/detallesmenu/06menu"
                    class="inline-block border border-gray-400 px-6 py-2 rounded-full hover:bg-black hover:text-white transition">
                    Ver más
                 </a>
