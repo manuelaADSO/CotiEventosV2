@@ -1,145 +1,156 @@
 <main class="flex-grow">
 
-    <!-- HERO -->
-    <div class="pt-20">
-        <section class="bg-gradient-to-r from-amber-100 via-orange-100 to-rose-100 py-24">
-            <div class="max-w-5xl mx-auto text-center px-6">
+<!-- HERO -->
+<div class="pt-20">
+    <section class="bg-gradient-to-r from-emerald-400 via-emerald-200 to-emerald-300 py-20">
+        <div class="max-w-6xl mx-auto text-center px-6">
+            <h1 class="text-4xl md:text-5xl font-bold mb-4 text-olive">
+                Música y Efectos Especiales
+            </h1>
+            <p class="text-lg text-olive/90">
+                Ritmo, energía y efectos visuales que convierten cada evento en una experiencia inolvidable.
+            </p>
+        </div>
+    </section>
+</div>
 
-                <h1 class="text-5xl md:text-6xl font-extrabold tracking-wide text-gray-800 mb-6">
-                    Música para Eventos
-                </h1>
+<!-- DESCRIPCIÓN + IMAGEN -->
+<section class="py-16 bg-white">
+    <div class="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
 
-                <div class="w-24 h-1 bg-orange-500 mx-auto mb-6 rounded-full"></div>
-
-                <p class="text-lg text-gray-600 leading-relaxed max-w-2xl mx-auto">
-                    Hacemos que cada celebración sea inolvidable. Nuestra propuesta musical incluye bandas en vivo, DJs, orquestas y solistas para todo tipo de eventos. Ritmo, energía y elegancia en cada presentación.
-                </p>
-
-            </div>
-        </section>
-    </div>
-
-    <!-- CONTENIDO PRINCIPAL -->
-    <section class="max-w-7xl mx-auto px-6 py-20">
-
-        <div class="grid lg:grid-cols-2 gap-16 items-center">
-
-            <!-- IMAGEN CIRCULAR -->
-            <div class="flex justify-center">
-                <div class="w-80 h-80 rounded-full overflow-hidden shadow-2xl">
-                    <img src="./assets/img/musica/concierto.jpg"
-                        class="w-full h-full object-cover"
-                        alt="Evento musical">
-                </div>
-            </div>
-
-            <!-- TEXTO Y SERVICIOS -->
-            <div>
-
-                <h2 class="text-4xl font-light mb-6 text-gray-800">
-                    Nuestra Propuesta Musical
-                </h2>
-
-                <p class="text-gray-600 text-lg leading-relaxed mb-10">
-                    Cada servicio está diseñado para adaptarse a la temática y estilo de tu evento. Desde la energía de una banda en vivo hasta la elegancia de un solista, ofrecemos opciones que garantizan momentos memorables para tus invitados.
-                </p>
-
-                <!-- SERVICIOS MUSICALES -->
-                <div class="space-y-6">
-
-                    <!-- BANDA -->
-                    <a href="#banda"
-                        class="flex items-center bg-blue-50 hover:bg-blue-100 transition p-6 rounded-2xl shadow-md">
-
-                        <div class="w-14 h-14 flex items-center justify-center bg-white rounded-full shadow text-blue-600 text-2xl">
-                            🎸
-                        </div>
-
-                        <div class="ml-6">
-                            <span class="text-xl font-semibold text-blue-600 block">
-                                Banda
-                            </span>
-                            <small class="text-gray-500">
-                                Ideal para bodas y fiestas con música en vivo. Repertorio versátil y animado que hará que todos bailen.
-                            </small>
-                        </div>
-
-                        <span class="ml-auto text-blue-600 text-xl">
-                            →
-                        </span>
-                    </a>
-
-                    <!-- DJ -->
-                    <a href="#dj"
-                        class="flex items-center bg-purple-50 hover:bg-purple-100 transition p-6 rounded-2xl shadow-md">
-
-                        <div class="w-14 h-14 flex items-center justify-center bg-white rounded-full shadow text-purple-600 text-2xl">
-                            🎧
-                        </div>
-
-                        <div class="ml-6">
-                            <span class="text-xl font-semibold text-purple-600 block">
-                                DJ
-                            </span>
-                            <small class="text-gray-500">
-                                Música electrónica, pop y urbana para fiestas modernas y eventos nocturnos.
-                            </small>
-                        </div>
-
-                        <span class="ml-auto text-purple-600 text-xl">
-                            →
-                        </span>
-                    </a>
-
-                    <!-- ORQUESTA -->
-                    <a href="#orquesta"
-                        class="flex items-center bg-green-50 hover:bg-green-100 transition p-6 rounded-2xl shadow-md">
-
-                        <div class="w-14 h-14 flex items-center justify-center bg-white rounded-full shadow text-green-600 text-2xl">
-                            🎷
-                        </div>
-
-                        <div class="ml-6">
-                            <span class="text-xl font-semibold text-green-600 block">
-                                Orquesta
-                            </span>
-                            <small class="text-gray-500">
-                                Salsa, tropical y repertorio clásico para eventos elegantes y celebraciones sofisticadas.
-                            </small>
-                        </div>
-
-                        <span class="ml-auto text-green-600 text-xl">
-                            →
-                        </span>
-                    </a>
-
-                    <!-- SOLISTA / CANTANTE -->
-                    <a href="#solista"
-                        class="flex items-center bg-yellow-50 hover:bg-yellow-100 transition p-6 rounded-2xl shadow-md">
-
-                        <div class="w-14 h-14 flex items-center justify-center bg-white rounded-full shadow text-yellow-600 text-2xl">
-                            🎤
-                        </div>
-
-                        <div class="ml-6">
-                            <span class="text-xl font-semibold text-yellow-600 block">
-                                Solista / Cantante
-                            </span>
-                            <small class="text-gray-500">
-                                Cantantes profesionales para ceremonias, cócteles y eventos íntimos. Crean un ambiente único y elegante.
-                            </small>
-                        </div>
-
-                        <span class="ml-auto text-yellow-600 text-xl">
-                            →
-                        </span>
-                    </a>
-
-                </div>
-
-            </div>
+        <!-- IMAGEN -->
+        <div class="flex justify-center order-1 md:order-2">
+            <img src="./assets/img/musica/inicio/musica.webp"
+                 class="w-80 h-80 object-cover rounded-full shadow-2xl border-8 border-emerald-200"
+                 alt="Música y efectos especiales">
         </div>
 
-    </section>
+        <!-- TEXTO -->
+        <div class="order-2 md:order-1">
+            <h2 class="text-3xl font-bold text-olive-600 mb-4">
+                Espectáculo Musical para tu Evento
+            </h2>
+
+            <p class="text-gray-600 mb-4">
+                La combinación de música y efectos especiales transforma cualquier
+                celebración en un espectáculo lleno de emoción.
+            </p>
+
+            <p class="text-gray-600 mb-4">
+                Ofrecemos DJs, bandas en vivo y efectos visuales que resaltan
+                los momentos más importantes de cada evento.
+            </p>
+
+            <p class="text-gray-600 mb-4">
+                Nuestro objetivo es crear una experiencia llena de energía,
+                diversión y entretenimiento para todos los invitados.
+            </p>
+        </div>
+
+    </div>
+</section>
+
+<!-- SERVICIOS -->
+<section class="py-20 bg-gradient-to-b from-gray-50 to-white">
+    <div class="max-w-4xl mx-auto px-6">
+
+        <h2 class="text-3xl font-bold text-center text-olive-600 mb-4">
+            Servicios de Música
+        </h2>
+
+        <div class="space-y-10">
+
+            <!-- DJ -->
+            <a href="<?= BASE_URL ?>/musica/dj"
+               class="relative block bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition duration-300 group overflow-hidden">
+
+                <div class="absolute left-0 top-0 h-full w-2 bg-purple-200"></div>
+
+                <div class="flex items-start gap-6">
+                    <div class="text-4xl bg-purple-200 text-purple-400 p-4 rounded-full shadow-md group-hover:scale-110 transition">
+                        🎧
+                    </div>
+
+                    <div>
+                        <h3 class="text-2xl font-bold text-gray-800 mb-2 group-hover:text-purple-400 transition">
+                            DJ Profesional
+                        </h3>
+                        <p class="text-gray-600">
+                            Mezclas musicales modernas que animan cualquier tipo de evento o celebración.
+                        </p>
+                    </div>
+                </div>
+            </a>
+
+            <!-- BANDA -->
+            <a href="<?= BASE_URL ?>/musica/banda"
+               class="relative block bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition duration-300 group overflow-hidden">
+
+                <div class="absolute left-0 top-0 h-full w-2 bg-blue-200"></div>
+
+                <div class="flex items-start gap-6">
+                    <div class="text-4xl bg-blue-200 text-blue-400 p-4 rounded-full shadow-md group-hover:scale-110 transition">
+                        🎸
+                    </div>
+
+                    <div>
+                        <h3 class="text-2xl font-bold text-gray-800 mb-2 group-hover:text-blue-400 transition">
+                            Banda en Vivo
+                        </h3>
+                        <p class="text-gray-600">
+                            Música en vivo con gran energía para hacer de tu evento una experiencia inolvidable.
+                        </p>
+                    </div>
+                </div>
+            </a>
+
+            <!-- EFECTOS ESPECIALES -->
+            <a href="<?= BASE_URL ?>/musica/efectosespeciales"
+               class="relative block bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition duration-300 group overflow-hidden">
+
+                <div class="absolute left-0 top-0 h-full w-2 bg-amber-200"></div>
+
+                <div class="flex items-start gap-6">
+                    <div class="text-4xl bg-amber-200 text-amber-400 p-4 rounded-full shadow-md group-hover:scale-110 transition">
+                        ✨
+                    </div>
+
+                    <div>
+                        <h3 class="text-2xl font-bold text-amber-800 mb-2 group-hover:text-amber-400 transition">
+                            Efectos Especiales
+                        </h3>
+                        <p class="text-gray-600">
+                            Chispas frías, humo bajo y otros efectos visuales que resaltan
+                            los momentos más importantes del evento.
+                        </p>
+                    </div>
+                </div>
+
+           <!-- PERSONALIZA TU EVENTO -->
+<a href="<?= BASE_URL ?>/musica/personalizar"
+   class="relative block bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition duration-300 group overflow-hidden">
+
+    <div class="absolute left-0 top-0 h-full w-2 bg-green-200"></div>
+
+    <div class="flex items-start gap-6">
+        <div class="text-4xl bg-green-200 text-green-400 p-4 rounded-full shadow-md group-hover:scale-110 transition">
+            🛠️
+        </div>
+
+        <div>
+            <h3 class="text-2xl font-bold text-gray-800 mb-2 group-hover:text-green-400 transition">
+                Personaliza tu Evento
+            </h3>
+            <p class="text-gray-600">
+                Combina DJ, Banda en Vivo y Efectos Especiales para crear el espectáculo que siempre has imaginado.
+            </p>
+        </div>
+    </div>
+</a>
+
+        </div>
+
+    </div>
+</section>
 
 </main>

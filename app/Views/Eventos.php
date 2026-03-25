@@ -24,7 +24,7 @@
                 <p class="text-gray-600 mb-4">
                     Celebramos el logro de una etapa inolvidable con una organización impecable y llena de emoción.
                 </p>
-                <a href="<?= BASE_URL ?>/graduacion" class="inline-block bg-red-500 text-white px-6 py-2 rounded-full hover:bg-pink-600 transition">
+                <a href="<?= BASE_URL ?>/grados" class="inline-block bg-red-500 text-white px-6 py-2 rounded-full hover:bg-pink-600 transition">
                     Cotizar
                 </a>
             </div>
@@ -32,7 +32,7 @@
 
         <!-- BABY-SHOWERS -->
         <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition duration-300">
-            <img src="https://shower.center/en/tips/baby-shower/quick-and-easy-baby-shower-decorating/carousel-1/3-blue-Elephant-baby-shower-decoration.webp" class="h-48 w-full object-cover">
+            <img src="./assets/img/eventos/inicio/baby_showers.webp" class="h-48 w-full object-cover">
             <div class="p-6">
                 <h2 class="text-2xl font-bold text-pink-600 mb-3">Baby Shower 👶</h2>
                 <p class="text-gray-600 mb-4">
@@ -46,7 +46,7 @@
 
         <!-- BAUTIZOS -->
         <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition duration-300">
-            <img src="https://www.evento.love/blog/wp-content/uploads/2021/11/eventolove-wedding-bodas-tartaspersonalizadas-babyshower-cumplean%CC%83os-primercumplean%CC%83os-comunion-bautizo-scaled.jpg" class="h-48 w-full object-cover">
+            <img src="./assets/img/eventos/inicio/bautizo.webp" class="h-48 w-full object-cover">
             <div class="p-6">
                 <h2 class="text-2xl font-bold text-pink-600 mb-3">Bautizos ✝️</h2>
                 <p class="text-gray-600 mb-4">
@@ -60,13 +60,13 @@
 
         <!-- CUMPLEAÑOS -->
         <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition duration-300">
-            <img src="https://mamasviajeras.com/wp-content/uploads/2020/07/celavi.2.jpg" class="h-48 w-full object-cover">
+            <img src="./assets/img/eventos/inicio/cumple.webp" class="h-48 w-full object-cover">
             <div class="p-6">
                 <h2 class="text-2xl font-bold text-yellow-500 mb-3">Cumpleaños 🎂</h2>
                 <p class="text-gray-600 mb-4">
                     Diseñamos celebraciones únicas que reflejan tu estilo y hacen brillar cada sonrisa.
                 </p>
-                <a href="<?= BASE_URL ?>/eventos/cumpleanos" class="inline-block bg-yellow-400 text-black px-6 py-2 rounded-full hover:bg-yellow-500 transition">
+                <a href="<?= BASE_URL ?>/cumple" class="inline-block bg-yellow-400 text-black px-6 py-2 rounded-full hover:bg-yellow-500 transition">
                     Cotizar
                 </a>
             </div>
@@ -74,7 +74,7 @@
 
         <!-- MATRIMONIOS -->
         <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition duration-300">
-            <img src="https://cdn0.bodas.net/article-vendor/45446/3_2/960/jpg/ec-228_1_45446-168966401847248.jpeg" class="h-48 w-full object-cover">
+            <img src="./assets/img/eventos/inicio/bodas.webp" class="h-48 w-full object-cover">
             <div class="p-6">
                 <h2 class="text-2xl font-bold text-pink-600 mb-3">Bodas 💍</h2>
                 <p class="text-gray-600 mb-4">
@@ -88,13 +88,13 @@
 
         <!-- XV AÑOS -->
         <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition duration-300">
-            <img src="https://i.pinimg.com/originals/70/38/22/703822bb947dfc5a966d0bf5b41d3028.jpg" class="h-48 w-full object-cover">
+            <img src="./assets/img/eventos/inicio/xv.webp" class="h-48 w-full object-cover">
             <div class="p-6">
-                <h2 class="text-2xl font-bold text-fuchsia-600 mb-3">XV años 👑</h2>
+                <h2 class="text-2xl font-bold text-fuchsia-600 mb-3">XV Años 👑</h2>
                 <p class="text-gray-600 mb-4">
                     Una noche mágica para una princesa inolvidable, creada con glamour y encanto.
                 </p>
-                <a href="<?= BASE_URL ?>/eventos/xv" class="inline-block bg-fuchsia-500 text-white px-6 py-2 rounded-full hover:bg-fuchsia-600 transition">
+                <a href="<?= BASE_URL ?>/xv" class="inline-block bg-fuchsia-500 text-white px-6 py-2 rounded-full hover:bg-fuchsia-600 transition">
                     Cotizar
                 </a>
             </div>
